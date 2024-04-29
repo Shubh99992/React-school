@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import StudentInfo from './component/test'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
+    <div>
+      <StudentInfo/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
