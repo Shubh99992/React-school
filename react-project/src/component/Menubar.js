@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'react-router-dom'
+import {Link }from 'react-router-dom'
 
 const Menubar = () => {
   return (
@@ -9,7 +9,7 @@ const Menubar = () => {
                 <Link to="/">Home</Link>
             </div>
             <div>
-                <Link to="/Product">Home</Link>
+                <Link to="/Weather">Weather</Link>
             </div>
         </nav>
     </div>
